@@ -219,6 +219,17 @@ body {
     grid-row: 1;
   }
 
+  .card-main::before {
+    content: "";
+    background-image: url(./images/bg-pattern-quotation.svg);
+    display: block;
+    width: 10.4rem;
+    height: 10.2rem;
+    position: absolute;
+    top: 0;
+    right: 8rem;
+  }
+
   .card__2 {
     grid-column: 3;
     grid-row: 1;
